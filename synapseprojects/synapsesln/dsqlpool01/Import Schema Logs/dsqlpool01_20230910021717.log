@@ -1,0 +1,33 @@
+9/10/2023 7:47:17 PM	This log contains information about the import schema operation into project 'dsqlpool01' on computer 'DESKTOP-VS93RMJ' by user 'dell'.
+9/10/2023 7:47:19 PM	Import of database schema has started.
+9/10/2023 7:47:37 PM	Gathering logins
+9/10/2023 7:47:41 PM	Gathering database credentials
+9/10/2023 7:47:41 PM	Gathering database options
+9/10/2023 7:47:41 PM	Gathering users
+9/10/2023 7:47:41 PM	Gathering roles
+9/10/2023 7:47:41 PM	Gathering role memberships
+9/10/2023 7:47:41 PM	Gathering symmetric keys
+9/10/2023 7:47:41 PM	Gathering schemas
+9/10/2023 7:47:41 PM	Gathering functions
+9/10/2023 7:47:41 PM	Gathering procedures
+9/10/2023 7:47:41 PM	Gathering partition table specification
+9/10/2023 7:47:45 PM	Gathering tables
+9/10/2023 7:47:45 PM	Gathering primary keys
+9/10/2023 7:47:45 PM	Gathering unique constraints
+9/10/2023 7:47:45 PM	Gathering default constraints
+9/10/2023 7:47:45 PM	Gathering views
+9/10/2023 7:47:45 PM	Gathering indexes
+9/10/2023 7:47:47 PM	Gathering statistics
+9/10/2023 7:47:47 PM	Gathering column store indexes
+9/10/2023 7:47:47 PM	Gathering security policies
+9/10/2023 7:47:47 PM	Gathering external data sources
+9/10/2023 7:47:47 PM	Gathering external file formats
+9/10/2023 7:47:47 PM	Gathering external tables
+9/10/2023 7:47:47 PM	Gathering Workload Groups
+9/10/2023 7:47:47 PM	Gathering Workload Classifiers
+9/10/2023 7:47:53 PM	Gathering logins
+9/10/2023 7:48:02 PM	Scanning project for duplicate elements
+9/10/2023 7:48:03 PM	Finished duplicate element processing
+9/10/2023 7:48:04 PM	Finished importing database.
+9/10/2023 7:48:04 PM	A summary of the import was saved to the following location: C:\CodeRepos\syn-gh\syn\synapseprojects\synapsesln\dsqlpool01\Import Schema Logs\dsqlpool01_20230910021717.log
+9/10/2023 7:48:04 PM	Click Finish to continue...
