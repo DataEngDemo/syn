@@ -1,0 +1,17 @@
+{
+	"name": "db_script_01",
+	"properties": {
+		"content": {
+			"query": "create table Employee(\nid int,\nname VARCHAR(100),\ndeptId int\n)\nwith \n(\nDISTRIBUTION  = ROUND_ROBIN,\nHEAP\n)\n\n\n\ncreate table Department(\nid INT,\nname VARCHAR(20)\n)\nwith \n(\nDISTRIBUTION = ROUND_ROBIN,\nHEAP\n)\n\n\ninsert into Department VALUES (1, 'HR')\ninsert into Department VALUES (2, 'IT')\ninsert into Department VALUES (3, 'Sales')\ninsert into Department VALUES (4, 'Finance')\ninsert into Department VALUES (5, 'SCM')\n\ninsert into Employee VALUES (1, 'Tom', 2)\ninsert into Employee VALUES (2, 'Jessie', 1)\ninsert into Employee VALUES (3, 'James', 3)\ninsert into Employee VALUES (4, 'Steve', 4)\ninsert into Employee VALUES (5, 'Rob', 5)\ninsert into Employee VALUES (6, 'Kyla', 2)\ninsert into Employee VALUES (7, 'kevin', 2)\ninsert into Employee VALUES (8, 'Laura', 2)\n\nselect * from Employee\nselect * from Department\n\n\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "dsqlpool01dev",
+				"poolName": "dsqlpool01dev"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
